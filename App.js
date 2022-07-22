@@ -1,3 +1,9 @@
+import Main from "./screens/MainComponent";
+
+export default function App() {
+  return <Main />;
+}
+
 // import { StatusBar } from "expo-status-bar";
 // import { StyleSheet, Text, View, Image } from "react-native";
 
@@ -53,29 +59,29 @@
 
 // export default LotsOfStyles;
 
-import React, { Component } from "react";
-import { View, Image, StyleSheet, Text } from "react-native";
+// import React, { Component } from "react";
+// import { View, Image, StyleSheet, Text } from "react-native";
 
-const styles = StyleSheet.create({
-  stretch: {
-    width: 250,
-    height: 200,
-    resizeMode: "stretch",
-  },
-});
+// const styles = StyleSheet.create({
+//   stretch: {
+//     width: 250,
+//     height: 200,
+//     resizeMode: "stretch",
+//   },
+// });
 
-class DisplayAnImageWithStyle extends Component {
-  render() {
-    return (
-      <View>
-        <Image
-          style={styles.stretch}
-          source={require("./assets/images/bootstrap-logo.png")}
-        />
-        <Text>Fuck, why is this not working!!!!</Text>
-      </View>
-    );
-  }
-}
+// class DisplayAnImageWithStyle extends Component {
+//   render() {
+//     return (
+//       <View>
+//         <Image
+//           style={styles.stretch}
+//           source={require("./assets/images/bootstrap-logo.png")}
+//         />
+//         <Text>Fuck, why is this not working!!!!</Text>
+//       </View>
+//     );
+//   }
+// }
 
-export default DisplayAnImageWithStyle;
+// export default DisplayAnImageWithStyle;
