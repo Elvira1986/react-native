@@ -19,8 +19,8 @@ import { useEffect } from "react";
 import { fetchPartners } from "../features/partners/partnersSlice";
 import { fetchCampsites } from "../features/campsites/campsitesSlice";
 import { fetchPromotions } from "../features/promotions/promotionsSlice";
-import FavoritesScreen from "./FavoritesScreen";
 import { fetchComments } from "../features/comments/commentsSlice";
+import FavoritesScreen from "./FavoritesScreen";
 
 const Drawer = createDrawerNavigator();
 
